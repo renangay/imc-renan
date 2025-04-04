@@ -5,13 +5,13 @@
 
 /* Define variáveis CSS para cores reutilizáveis */
 :root {
-    --laranja-claro: #FF862A;
+    --braco-claro: #9f2aff04;
     /* Cor laranja para destaque */
-    --alto-contraste-fundo: #000000;
+    --alto-contraste-fundo: #02040ad0;
     /* Cor de fundo para modo alto contraste */
-    --alto-contraste-texto: #ffffff;
+    --alto-contraste-texto: #250505;
     /* Cor de texto para modo alto contraste */
-    --alto-contraste-link: #ffd700;
+    --alto-contraste-link: #00aeff;
     /* Cor de links para modo alto contraste */
 }
 
@@ -22,7 +22,7 @@ body {
     font-family: 'Montserrat';
     /* Fonte principal */
     background: color(srgb 0.9 0.8 1);
-    /* Cor de fundo lilás claro */
+    /* Cor de fundo preto claro */
 }
 
 /* Estilos para títulos h2 */
@@ -81,7 +81,15 @@ h2 {
 
 /* Estilos para o modo alto contraste */
 .alto-contraste {
-    background-color: var(--alto-contraste-fundo);
+    background-color: var(--alto-colidade */
+    .opcoes-acessibilidade {
+        margin-top: 10px;
+        /* Espaço acima */
+        display: flex;
+        /* Layout flexível */
+        flex-direction: column;
+        /* Organiza os itens verticalmente */
+    }ntraste-fundo);
     /* Fundo preto */
     color: var(--alto-contraste-texto);
     /* Texto branco */
@@ -100,18 +108,18 @@ h2 {
 /* Estilo para links no modo alto contraste */
 .alto-contraste .nav-link {
     color: var(--alto-contraste-link);
-    /* Cor dourada */
+    /* vermelhpo*/
 }
 
 /* Estilos para a calculadora de IMC */
 #calculadora-imc {
-    background-color: #fff;
+    background-color: #0e0c0c;
     /* Fundo branco */
     padding: 2rem;
     /* Espaçamento interno */
-    border-radius: 10px;
+    border-radius: 15px;
     /* Bordas arredondadas */
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 15px rgba(14, 12, 12, 0.795);
     /* Sombra suave */
 }
 
@@ -127,7 +135,7 @@ h2 {
 
 /* Estilização do formulário de IMC */
 #form-imc {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(53, 49, 49, 0.9);
     /* Fundo branco semi-transparente */
     padding: 2rem;
     /* Espaçamento interno */
@@ -161,7 +169,7 @@ h2 {
 
 /* Efeito hover para o botão */
 #form-imc button:hover {
-    background-color: #e6711f;
+    background-color: #cf1fe6;
     /* Laranja mais escuro ao passar o mouse */
 }
 
